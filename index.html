@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JS Assignment 1</title>
+</head>
+<body>
+    
+    <pre>
+
+        <center><h1> JS : Operators And Expressions</h1></center>
+        <h2>1.  Add two Numbers</h2>
+
+        You are provided with two numbers A and B.
+        Your task is to add these two numbers.
+        
+        >> Answer
+
+        <div class="code">
+        const AddTwoNumbers = (a,b) => {
+            return a+b;
+        };
+    </div>
+    
+    <h2> 2. Find if the conditions are obeyed or not?</h2>
+
+       You are given two number first as A and second as B
+       and check if both conditions (A<10 and A>B) are satisfied or not with the help of operators.
+
+       >> Answer
+
+       <div class="code">
+        const Is_Valid = (a,b) => {
+            if(a<1){
+            return true;
+            } else if(a>b){
+            return true;
+            } else{
+            return false;
+            }
+        
+        }
+    </div>
+
+
+
+        <h2>3. Check the conditons</h2>
+
+            You are given two numbers A and B. You need to do the following checks:
+            
+            if both are divisible by 10 console true.
+            if both are not divisible by 10 console false.
+            if one of them only is divisible by 10 console true.
+            Use operator to do this.
+
+            >> Answer
+
+            <div class="code">
+            const Check = (A, B) => 
+        {
+            if(A%10 === 0 && B%10 === 0){
+                return true;
+            }
+            else if (A%10 !==0 && B%10 !==0){
+                return false;
+            }
+            else{
+                return true;
+            }
+            };
+
+        </div>
+<h2>4. Find the first digit of a 4 digit number</h2>
+
+    You are provided a four digit number N only. Your task is to print out the first digit of that number.
+  
+    >> Answer
+
+    <div class="code">
+        const First_Digit = (n) => {
+            const result = String(n).charAt(0);
+            return (result);
+        };
+    </div>
+    <h2>5. Find the last digit of a 4 digit number</h2>
+
+    You are provided a four digit number N only. Your task is to print out the last digit of that number.
+
+    >> Answer
+
+    <div class="code">
+    const Last_Digit = (n) => {
+        return n % 10
+     };
+    </div>
+    <h2>6. Find the remainder</h2>
+
+    You are provided with two numbers A and B where A as  divisor and B as  dividend.
+    Your task is find the remainder.
+  
+    >> Answer 
+
+<div class="code">
+    const Find_the_remainder = (a,b) => {
+        return b%a;
+    };
+    
+</div>
+    <h2>7. Multipy two Numbers</h2>
+
+    You are provided with two numbers A and B. Your task is to multiply these two numbers.
+  
+    >> Answer
+
+    <div class="code">
+    const Multiply_two_number = (a,b) => {
+        return a*b;
+    };
+</div>
+   <h2> 8. Marks Calculator</h2>
+
+    Shyam has got his marks in three subjects as A,B, and C (out of 100).
+    Write a program to calculate his total marks and his average.
+
+     >> Answer
+
+<div class="code">
+        const Sum = (A, B, C) => 
+        {
+        return A+B+C;
+        };
+
+        const Average = (A, B, C) => 
+        {
+        return (A+B+C)/3
+        };
+    </div>
+    </pre>
+
+
+
+</body>
+</html>
